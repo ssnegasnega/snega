@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My college</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color:#242424;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #07e3eb;
+            color: #df0acd;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+        .header b{
+            background:#fff;
+            color:red;
+            padding: 10px;
+        } 
+        .header marquee{
+            font-size: 20px;
+            color:#ec05c5;
+            width: 80%;
+        }
+        .container{
+            width: 1300px;
+            margin: 0px auto;
+        }
+        .logo{
+            height:100px;
+        }
+        .slider img{
+            width:100%;
+        }
+        .title{
+            position: absolute;
+            top:80%;
+            left: 60%;
+            transform: translate(-80%,-60%);
+        }
+        .title h1{
+            color:black;
+            font-size: 50px;
+            text-shadow:2px 2px rgb(255, 0, 157);
+        }
+        nav {
+            
+            color: #fff;
+            text-align:right;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 25px 0px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 30px;
+            
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #a305ec;
+            font-size: 30px;
+        }
+        nav ul li a:hover{
+            color: #ec05c5;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(197, 9, 9, 0.1);
+            text-align: justify;
+        }
+        .section-content h2{
+            color: #a305ec;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #07e3eb;
+            color: #c20808;
+            font-size: larger;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <title> My college</title>
+        <div class="header">
+            <b>NEWS :</b>
+        <marquee>
+            My college: Intelligence plus curiosity
+        </marquee>        
+        </div>
+        </header>
+        <div class="container">
+            <img src="images/logo.png"class="logo">
+        </div>
+        <div class="title">
+            <h1> My College</h1>
+        </div>
+        
+        
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Events">Events</a></li>
+            <li><a href="#Course">Course</a></li>
+           
+        </ul>
+    </nav>
+        <div class="slider">
+            <img src="images/slider.PNG">
+        </div>
+
+    <section id="About">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Our College has the best campus infrastructure clubbed up with artistic buildings,
+                beautiful gardens and playgrounds enhancing student life in college.Teachers cater to
+                 individual learning needs of students through ensuring they underrstand the starting point for each child and
+                 differentiating the curriculum and pedagogy to ensure learning process..</p>
+        </div>
+    </section>
+
+    <section id="Events">
+        <div class="section-content">
+            <h2>Events</h2>
+            <ul>
+                <li> Connect students to local charities and volunteer opportunities. </li>
+                <li> Host recurring events that connect students with alumni.</li>
+                <li> Recruit popular speakers or host TED Talks. </li>
+                <li> Host fun, creative, and unique campus sporting events.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Course">
+        <div class="section-content">
+            <h2>Course</h2>
+            <ul>
+                <li>Bachelor of Computer Science (BSC.CS)</li>
+                <li>Bachelor of Information Technology (BSC.IT)</li>
+                <li>Bachelor of Business Administration (BBA)</li>
+                <li>Bachelor of Commerce (BCOM)</li>
+            </ul>
+        </div>
+    </section>
+        <footer>
+            <p>&copy; My College</p>
+        </footer>
+        
+    <script>
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            
+        
+    </script>
+</body>
+</html>
